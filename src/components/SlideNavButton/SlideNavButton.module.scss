@@ -1,0 +1,13 @@
+.wrapper {
+    display: block;
+    position: absolute;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.35);
+    padding: 10px 5px;
+    
+    &.next {
+        right: 0px;
+    }
+    img {
+        height: 35px;
+    }
+}

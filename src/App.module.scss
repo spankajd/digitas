@@ -1,0 +1,9 @@
+@import "./style/mixin.scss";
+
+.App {
+  margin: 1.875rem .75rem 0;
+  @include lg {
+    margin: 0 auto;
+    width: 80%;
+  }
+}

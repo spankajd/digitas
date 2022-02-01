@@ -1,0 +1,18 @@
+@import "../../style/common.scss";
+
+.wrapper {
+    display: inline-block;
+    padding: 15px;
+    background-color: var(--color-button-background);
+    color: var(--color-button-color);
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+
+    &.secondary {
+        background-color: transparent;
+        color: var(--color-button-background);
+        padding: 5px;
+    }
+}

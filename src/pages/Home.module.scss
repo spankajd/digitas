@@ -1,0 +1,12 @@
+.toggleButtonWrapper {
+    display: flex;
+    justify-content: end;
+}
+.buttonBar {
+    display: flex;
+    justify-content: space-between;
+
+    .navButton {
+        margin-left: 10px;
+    }
+} 

@@ -1,0 +1,30 @@
+@import '../../style/mixin.scss';
+
+.wrapper {
+    overflow: hidden;
+    border-bottom: 1px solid #AAAAAA;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    width: 100%;
+
+    .content {
+        margin: 0 auto;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @include lg {
+        margin-bottom: 25px;
+    
+        .content {
+            padding: 15px 35px;
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
+}
+

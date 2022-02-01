@@ -1,0 +1,11 @@
+@import "./mixin.scss"; 
+
+body {
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    user-select: none;
+}
+
+:root {
+    --color-button-background : #FF0000; 
+    --color-button-color : #FFFFFF; 
+}
