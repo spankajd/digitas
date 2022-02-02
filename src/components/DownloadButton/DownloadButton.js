@@ -2,7 +2,7 @@ import * as React from "react";
 
 import Button from '../Button/Button';
 
-const DownloadButton = ({imgPath = '', customClass=''}) => {
+const DownloadButton = ({imgPath = '', customClass='', secondary=false}) => {
 
     const downloadClick = async (e) => {
         e.preventDefault();
@@ -27,7 +27,7 @@ const DownloadButton = ({imgPath = '', customClass=''}) => {
     };
 
     return (
-        <Button label="Download original" onClick={downloadClick} customClass={customClass}></Button> 
+        <Button label="Download original" secondary={secondary} onClick={downloadClick} customClass={customClass}></Button> 
     )
 }
 export default DownloadButton;

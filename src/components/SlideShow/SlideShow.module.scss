@@ -14,7 +14,7 @@
     }
     .row {
         font-size: .75rem;
-        padding: 10px;
+        padding: 5px 10px;
 
         @include md {
             display: flex;
@@ -26,6 +26,7 @@
     }
     .caption {
         font-size: .875rem;
+        margin-bottom: 5px;
         @include md {
             font-size: 1.25rem;
         }
@@ -33,5 +34,8 @@
 
     .owner, .downloadLink {
         color : red;
+    }
+    .downloadButton {
+        margin-top: 5px;
     }
 }

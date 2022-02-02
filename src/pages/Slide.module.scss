@@ -1,3 +1,5 @@
+@import "../style/mixin.scss";
+
 .toggleButtonWrapper {
     display: flex;
     justify-content: end;
@@ -7,6 +9,8 @@
     justify-content: space-between;
 
     .navButton {
-        margin-left: 10px;
+        @include md {
+            margin-left: 10px;
+        }
     }
 } 
